@@ -1,13 +1,15 @@
 * {
   margin: 0;
   padding: 0;
-  color: #606060;
+  color: rgb(243 202 202);
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
   box-sizing: border-box;
   line-height: 1.3;
 }
-
+body {
+  /* background: linear-gradient(180deg, #d3c9c9 10%, #7a5e5e); */
+}
 a {
   text-decoration: none;
 }
@@ -66,9 +68,11 @@ header {
 .main-conteiner {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 20px 10px;
-  border-right: 2px solid #e1e0e0;
-  border-left: 2px solid #e1e0e0;
+  padding: 20px 30px;
+  /* border-right: 2px solid #e1e0e0;
+  border-left: 2px solid #e1e0e0; */
+  background-color: rgb(28, 28, 39);
+  border-radius: 10px;
 }
 .About_me {
   display: flex;
