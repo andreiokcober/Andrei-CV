@@ -200,7 +200,6 @@ header {
 }
 .portfolio_left:hover .portfolio_logo {
   max-width: 320px;
-  
   transition: all 0.5s ease-out;
 }
 .Portfolio_right {
@@ -229,6 +228,7 @@ header {
   }
   .about {
     margin-right: 5%;
+    text-align: center;
   }
   .contact {
     margin-right: 0px;
